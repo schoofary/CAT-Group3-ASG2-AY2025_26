@@ -1,19 +1,6 @@
-# Cloud Architeture Assignment 2
+# **Cloud Architeture Assignment 2**
+## **Static Webpage**
 This is all hosted on a S3 bucket.
-/S3
-│ \n
-├── index.html <-- The main entry point (Static Hosting Target) 
-│ 
-├── css/ <-- Stylesheets 
-│     └── styles.css 
-│ 
-├── js/ <-- JavaScript Logic 
-│     ├── app.js <-- Main logic: Form handling & DOM manipulation 
-│     ├── api.js <-- API Gateway configuration & Fetch calls 
-│     └── config.js <-- Store API Gateway URL here 
-│ 
-└── error.html <-- Custom 404 page (Configured in S3)
-
 
 The webpage has the following features:
 
@@ -27,3 +14,6 @@ The webpage has the following features:
 	3. Category
 	4. Price
 	5. Stock
+
+## **Watermark function**
+user adds image to S3 -> Triggers Lambda Function -> Lambda Function adds watermark -> Adds watermarked image to S3 -> Deletes original image
