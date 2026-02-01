@@ -1,7 +1,7 @@
 # Cloud Architeture Assignment 2
 This is all hosted on a S3 bucket.
 /S3
-│ 
+│ \n
 ├── index.html <-- The main entry point (Static Hosting Target) 
 │ 
 ├── css/ <-- Stylesheets 
